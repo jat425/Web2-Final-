@@ -1,0 +1,23 @@
+/* =============
+    Section 4
+============= */
+#section-4{
+    background-image: url('../img/section-4/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+
+    @include md{
+        height: 60vh;
+    }
+
+    @include lg{
+        height: 70vh;
+    }
+
+    @include xl{
+        background-position: center top;
+        height: 70vh;
+    }
+}
