@@ -23,16 +23,3 @@ ul{
         display: block;
     }
 }
-
-.content-spacing{
-    margin-top: 50px;
-    @include md{
-        margin-top: 55px;
-    }
-    @include lg{
-        margin-top: 700px;
-    }
-    @include xl{
-        margin-top: 100px;
-    }
-}
