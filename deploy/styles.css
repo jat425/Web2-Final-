@@ -417,7 +417,8 @@ header {
         header > div #burger-container {
           display: none !important; } }
       header > div #burger-container i {
-        cursor: pointer; }
+        cursor: pointer;
+        color: #D9051E; }
     header > div #nav-container {
       background-color: #000;
       display: none;
