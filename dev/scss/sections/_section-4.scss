@@ -1,3 +1,23 @@
 /* =============
     Section 4
 ============= */
+
+#section-4{
+    background-image: url('../img/section-4/crowd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 244px;
+
+    @include md{
+        height: 288px;
+    }
+
+    @include lg{
+        height: 362px;
+    }
+
+    @include xl{
+        height: 412px;
+    }
+}

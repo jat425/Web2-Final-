@@ -16,4 +16,41 @@
             font-size: rem-calc(76);
         }
     }
+
+    #section-3-content{
+        display: grid;
+        grid-template-columns: 70px auto 70px;
+        grid-template-areas: ". section-3-content .";
+
+        ul {
+            display: grid;
+            gap: 30px;
+            grid-area: section-3-content;
+            padding-bottom: 40px;
+            padding-top: 40px;
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-areas:
+                "t1"
+                "t2"
+                "t3";
+        
+            li{
+                #t1 {
+                    grid-area: t1;
+                }
+
+                #t2 {
+                    grid-area: t2;
+                }
+
+                #t3 {
+                    grid-area: t3;
+                }
+            }
+
+
+        }  
+        
+    }
+
 }

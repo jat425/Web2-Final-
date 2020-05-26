@@ -332,6 +332,13 @@ ul {
   @media (min-width: 992px) {
     .show-for-lg {
       display: block; } }
+.link {
+  text-align: center; }
+  .link a:link,
+  .link a:visited {
+    text-decoration: none;
+    transition: 0.25s; }
+
 /* =============
     Typography
 ============= */
@@ -487,17 +494,6 @@ header {
     @media (min-width: 992px) {
       #section-2 h1 {
         font-size: 4.75rem; } }
-  #section-2 a:link,
-  #section-2 a:visited {
-    color: #D9051E;
-    text-decoration: none;
-    transition: 0.25s;
-    font-family: 'roboto', sans-serif;
-    font-size: 1.25rem;
-    font-weight: 700; }
-  #section-2 a:hover,
-  #section-2 a:active {
-    color: #fff; }
   #section-2 #section-2-content {
     display: grid;
     grid-template-columns: 70px auto 70px;
@@ -577,6 +573,19 @@ header {
         grid-area: d1; }
       #section-2 #section-2-content ul li #d2 {
         grid-area: d2; }
+  #section-2 #section-2-link {
+    padding-bottom: 50px; }
+    #section-2 #section-2-link a:link,
+    #section-2 #section-2-link a:visited {
+      color: #D9051E;
+      text-decoration: none;
+      transition: 0.25s;
+      font-family: 'roboto', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 700; }
+    #section-2 #section-2-link a:hover,
+    #section-2 #section-2-link a:active {
+      color: #fff; }
 
 /* =============
     Section 3
@@ -592,9 +601,43 @@ header {
   @media (min-width: 992px) {
     #section-3 h1 {
       font-size: 4.75rem; } }
+#section-3 #section-3-content {
+  display: grid;
+  grid-template-columns: 70px auto 70px;
+  grid-template-areas: ". section-3-content ."; }
+  #section-3 #section-3-content ul {
+    display: grid;
+    gap: 30px;
+    grid-area: section-3-content;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "t1" "t2" "t3"; }
+    #section-3 #section-3-content ul li #t1 {
+      grid-area: t1; }
+    #section-3 #section-3-content ul li #t2 {
+      grid-area: t2; }
+    #section-3 #section-3-content ul li #t3 {
+      grid-area: t3; }
+
 /* =============
     Section 4
 ============= */
+#section-4 {
+  background-image: url("../img/section-4/crowd.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 244px; }
+  @media (min-width: 768px) {
+    #section-4 {
+      height: 288px; } }
+  @media (min-width: 992px) {
+    #section-4 {
+      height: 362px; } }
+  @media (min-width: 1200px) {
+    #section-4 {
+      height: 412px; } }
 /* =============
     Section 5
 ============= */
