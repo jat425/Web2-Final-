@@ -2,7 +2,7 @@
     Header
 ============= */
 header{
-    background-color: $white;
+    background-color: $dark;
     left: 0;
     position: fixed;
     top: 0;
@@ -38,19 +38,18 @@ header{
 
             i {
                 cursor: pointer;
-                
                 color: $red;
             }
         }
 
         #nav-container {
-            background-color: $black;
+            background-color: $dark;
             display: none;
             grid-area: nav;
             padding: 20px;
 
             @include lg {
-                background-color: $white;
+                background-color: $dark;
                 display: block !important;
             }
         }

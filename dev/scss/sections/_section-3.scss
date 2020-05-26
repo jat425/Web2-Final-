@@ -1,3 +1,19 @@
 /* =============
     Section 3
 ============= */
+
+#section-3{
+    h1{
+        color: $white;
+        text-align: center;
+        margin-top: -20px;
+        font-size: rem-calc(35);
+        @include md{
+            font-size: rem-calc(60);
+        }
+
+        @include lg{
+            font-size: rem-calc(76);
+        }
+    }
+}

@@ -1,3 +1,54 @@
 /* =============
     Section 1
 ============= */
+
+#section-1{
+    background-image: url('../img/section-1/hero1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+
+    @include md{
+        height: 650px;
+    }
+
+    @include lg{
+        height: 800px;
+    }
+
+    @include xl{
+        height: 1000px;
+    }
+
+    h2{
+        font-size: 25px;
+        color: $white;
+        text-align: center;
+
+        @include md{
+            font-size: 30px;
+        }
+
+        @include lg{
+            font-size: 35px;
+        }
+
+    }
+
+    #hero-text{
+        padding-top: 270px;
+
+        @include md{
+            padding-top: 400px;
+        }
+
+        @include lg{
+            padding-top: 600px;
+        }
+
+        @include xl{
+            
+        }
+    }
+}
