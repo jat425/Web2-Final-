@@ -482,11 +482,12 @@ header {
     Section 2
 ============= */
 #section-2 {
-  background-color: #010004; }
+  background-color: #010004;
+  border: 1px #010004 solid; }
   #section-2 h1 {
     color: #fff;
     text-align: center;
-    margin-top: -20px;
+    margin-top: -30px;
     font-size: 2.1875rem; }
     @media (min-width: 768px) {
       #section-2 h1 {
@@ -590,35 +591,38 @@ header {
 /* =============
     Section 3
 ============= */
-#section-3 h1 {
-  color: #fff;
-  text-align: center;
-  margin-top: -20px;
-  font-size: 2.1875rem; }
-  @media (min-width: 768px) {
-    #section-3 h1 {
-      font-size: 3.75rem; } }
-  @media (min-width: 992px) {
-    #section-3 h1 {
-      font-size: 4.75rem; } }
-#section-3 #section-3-content {
-  display: grid;
-  grid-template-columns: 70px auto 70px;
-  grid-template-areas: ". section-3-content ."; }
-  #section-3 #section-3-content ul {
+#section-3 {
+  background-color: #020654;
+  border: 1px #020654 solid; }
+  #section-3 h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: -20px;
+    font-size: 2.1875rem; }
+    @media (min-width: 768px) {
+      #section-3 h1 {
+        font-size: 3.75rem; } }
+    @media (min-width: 992px) {
+      #section-3 h1 {
+        font-size: 4.75rem; } }
+  #section-3 #section-3-content {
     display: grid;
-    gap: 30px;
-    grid-area: section-3-content;
-    padding-bottom: 40px;
-    padding-top: 40px;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: "t1" "t2" "t3"; }
-    #section-3 #section-3-content ul li #t1 {
-      grid-area: t1; }
-    #section-3 #section-3-content ul li #t2 {
-      grid-area: t2; }
-    #section-3 #section-3-content ul li #t3 {
-      grid-area: t3; }
+    grid-template-columns: 70px auto 70px;
+    grid-template-areas: ". section-3-content ."; }
+    #section-3 #section-3-content ul {
+      display: grid;
+      gap: 30px;
+      grid-area: section-3-content;
+      padding-bottom: 40px;
+      padding-top: 40px;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "t1" "t2" "t3"; }
+      #section-3 #section-3-content ul li #t1 {
+        grid-area: t1; }
+      #section-3 #section-3-content ul li #t2 {
+        grid-area: t2; }
+      #section-3 #section-3-content ul li #t3 {
+        grid-area: t3; }
 
 /* =============
     Section 4
