@@ -1,4 +1,22 @@
 /* =============
     Section 7
 ============= */
+#section-7{
+    background-color: $blue;
+    border: 1px $blue solid;
+
+    h1{
+        color: $white;
+        text-align: center;
+        margin-top: -30px;
+        font-size: rem-calc(35);
+        @include md{
+            font-size: rem-calc(60);
+        }
+
+        @include lg{
+            font-size: rem-calc(76);
+        }
+    }
+}
 

@@ -597,7 +597,7 @@ header {
   #section-3 h1 {
     color: #fff;
     text-align: center;
-    margin-top: -20px;
+    margin-top: -30px;
     font-size: 2.1875rem; }
     @media (min-width: 768px) {
       #section-3 h1 {
@@ -645,12 +645,54 @@ header {
 /* =============
     Section 5
 ============= */
+#section-5 {
+  background-color: #020654;
+  border: 1px #020654 solid; }
+  #section-5 h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: -30px;
+    font-size: 2.1875rem; }
+    @media (min-width: 768px) {
+      #section-5 h1 {
+        font-size: 3.75rem; } }
+    @media (min-width: 992px) {
+      #section-5 h1 {
+        font-size: 4.75rem; } }
 /* =============
     Section 6
 ============= */
 /* =============
     Section 7
 ============= */
+#section-7 {
+  background-color: #020654;
+  border: 1px #020654 solid; }
+  #section-7 h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: -30px;
+    font-size: 2.1875rem; }
+    @media (min-width: 768px) {
+      #section-7 h1 {
+        font-size: 3.75rem; } }
+    @media (min-width: 992px) {
+      #section-7 h1 {
+        font-size: 4.75rem; } }
 /* =============
     Section 8
 ============= */
+#section-8 {
+  background-color: #010004;
+  border: 1px #020654 solid; }
+  #section-8 h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: -30px;
+    font-size: 2.1875rem; }
+    @media (min-width: 768px) {
+      #section-8 h1 {
+        font-size: 3.75rem; } }
+    @media (min-width: 992px) {
+      #section-8 h1 {
+        font-size: 4.75rem; } }
