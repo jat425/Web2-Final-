@@ -8,14 +8,16 @@
     h1{
         color: $white;
         text-align: center;
-        margin-top: -30px;
+        margin-top: -20px;
         font-size: rem-calc(35);
         @include md{
             font-size: rem-calc(60);
+            margin-top: -30px;
         }
 
         @include lg{
             font-size: rem-calc(76);
+            margin-top: -40px;
         }
     }
 }

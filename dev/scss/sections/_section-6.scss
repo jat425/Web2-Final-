@@ -1,3 +1,50 @@
 /* =============
     Section 6
 ============= */
+
+#section-6{
+    background-image: url('../img/section-6/bwgrain.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 936px;
+    border: 1px $blue solid;
+
+
+    #red{
+        background-image: url('../img/section-6/girl-red.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 300px;
+
+    }
+
+    #blue{
+        background-image: url('../img/section-6/HERO3-Blue.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 80px;
+        height: 300px;
+    }
+    
+    
+
+
+
+    h3{
+        color: $white;
+                    text-align: left;
+                    font-size: rem-calc(25);
+                    margin-top: -20px; 
+
+                    @include md{
+                        font-size: rem-calc(32);
+                    }
+
+                    @include lg{
+                        font-size: rem-calc(40);
+                    }
+    }
+}

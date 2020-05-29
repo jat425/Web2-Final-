@@ -61,6 +61,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/section-2/Group 2.png": {
+		"ft": 32768,
+		"iS": 500609,
+		"oA": 0,
+		"oAP": "/deploy/img/section-2/Group 2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section-2/Group.png": {
+		"ft": 32768,
+		"iS": 601483,
+		"oA": 0,
+		"oAP": "/deploy/img/section-2/Group.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/section-2/travis.jpg": {
 		"ft": 16384,
 		"iS": 321469,
@@ -72,12 +94,67 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/section-2/TRAVIS1.png": {
+		"ft": 32768,
+		"iS": 592018,
+		"oA": 0,
+		"oAP": "/deploy/img/section-2/TRAVIS1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section-2/travis_circle.png": {
+		"ft": 32768,
+		"iS": 138726,
+		"oA": 0,
+		"oAP": "/deploy/img/section-2/travis_circle.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/section-4/crowd.jpg": {
 		"ft": 16384,
 		"iS": 1308612,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/section-4/crowd.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-6/bwgrain.jpg": {
+		"ft": 16384,
+		"iS": 300844,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-6/bwgrain.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-6/girl-red.jpg": {
+		"ft": 16384,
+		"iS": 221915,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-6/girl-red.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-6/HERO3-BLUE.jpg": {
+		"ft": 16384,
+		"iS": 579947,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-6/HERO3-BLUE.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

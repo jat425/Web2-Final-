@@ -9,21 +9,34 @@
     h1{
         color: $white;
         text-align: center;
-        margin-top: -30px;
+        margin-top: -20px;
         font-size: rem-calc(35);
         @include md{
             font-size: rem-calc(60);
+            margin-top: -30px;
         }
 
         @include lg{
             font-size: rem-calc(76);
+            margin-top: -40px;
         }
     }
 
     #section-3-content{
         display: grid;
-        grid-template-columns: 70px auto 70px;
+        grid-template-columns: 60px auto 60px;
         grid-template-areas: ". section-3-content .";
+
+        @include lg{
+            grid-template-columns: 130px auto 130px;
+            grid-template-areas: ". section-3-content .";
+    
+        }
+
+        @include xl{
+            grid-template-columns: 330px auto 330px;
+            grid-template-areas: ". section-3-content .";
+        }
 
         ul {
             display: grid;
@@ -36,8 +49,62 @@
                 "t1"
                 "t2"
                 "t3";
+
+                @include md {
+                    display: grid;
+                    grid-area: section-3-content;
+                    gap: 40px;
+                    grid-template-rows: repeat(1, 1fr);
+                    grid-template-areas:
+                        "t1 t2 t3";
+                }
         
             li{
+                h3{
+                    color: $white;
+                    text-align: center;
+                    font-size: rem-calc(30);
+                    padding-bottom: 16px;
+                    @include md{
+                        font-size: rem-calc(30);
+                        padding-bottom: 16px;
+                    }
+
+                    @include lg{
+                        font-size: rem-calc(40);
+                        padding-bottom: 16px;
+                    }
+
+                }
+
+                h4{
+                    color: $white;
+                    text-align: center;
+                    font-size: rem-calc(16);
+                    padding-bottom: 16px;
+            
+                    @include lg{
+                        font-size: rem-calc(20);
+                    }
+                }
+
+                a:link,
+                a:visited{
+                    color: $red;
+                    text-decoration: none;
+                    transition: 0.25s;
+                    font-family: 'roboto', sans-serif;
+                    font-size: rem-calc(20);
+                    font-weight: 700;
+                }
+            
+        
+                a:hover,
+                a:active {
+                    color: $white;
+                }
+            
+
                 #t1 {
                     grid-area: t1;
                 }
