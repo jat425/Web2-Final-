@@ -160,6 +160,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/section-7/ferrisREDD.jpg": {
+		"ft": 16384,
+		"iS": 499978,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-7/ferrisREDD.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -554,7 +565,7 @@
 "projectAttributes": {
 	"creationDate": 611778103.86563301,
 	"displayValue": "Web2-Final-",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_purple",
 	"iconImageWasSetByUser": 1
 	},

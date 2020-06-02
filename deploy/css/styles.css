@@ -785,16 +785,26 @@ header {
       #section-7 p {
         font-size: 1.6875rem;
         padding-top: 100px;
-        padding-bottom: 100rpx;
+        padding-bottom: 100px;
         padding-left: 200px;
         padding-right: 200px; } }
     @media (min-width: 1200px) {
       #section-7 p {
         font-size: 1.6875rem;
         padding-top: 100px;
-        padding-bottom: 100rpx;
+        padding-bottom: 100px;
         padding-left: 400px;
         padding-right: 400px; } }
+  #section-7 #section-7-img {
+    background-image: url(../img/section-7/ferrisREDD.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    margin-bottom: 100px; }
+    @media (min-width: 992px) {
+      #section-7 #section-7-img {
+        height: 400px; } }
 /* =============
     Section 8
 ============= */
@@ -814,3 +824,20 @@ header {
       #section-8 h1 {
         font-size: 4.75rem;
         margin-top: -40px; } }
+  #section-8 h2 {
+    color: #D9051E; }
+  #section-8 p {
+    color: #fff; }
+  #section-8 #section-3-link {
+    padding-bottom: 50px; }
+    #section-8 #section-3-link a:link,
+    #section-8 #section-3-link a:visited {
+      color: #D9051E;
+      text-decoration: none;
+      transition: 0.25s;
+      font-family: 'roboto', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 700; }
+    #section-8 #section-3-link a:hover,
+    #section-8 #section-3-link a:active {
+      color: #fff; }
