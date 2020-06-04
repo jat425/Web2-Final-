@@ -127,6 +127,94 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/section-5/cocktails.jpeg": {
+		"ft": 16384,
+		"iS": 12436,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-5/cocktails.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-5/CV.jpg": {
+		"ft": 16384,
+		"iS": 1149459,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-5/CV.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-5/GoPuff.jpg": {
+		"ft": 16384,
+		"iS": 65884,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-5/GoPuff.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-5/lockers.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-5/lockers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-5/Puma.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-5/Puma.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-5/quality.jpg": {
+		"ft": 16384,
+		"iS": 132053,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-5/quality.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-5/snipes.jpg": {
+		"ft": 16384,
+		"iS": 185536,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-5/snipes.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-5/TIDAL.jpg": {
+		"ft": 16384,
+		"iS": 7298,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-5/TIDAL.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/section-6/bwgrain.jpg": {
 		"ft": 16384,
 		"iS": 300844,
@@ -169,6 +257,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-8/Group 16.png": {
+		"ft": 32768,
+		"iS": 34386,
+		"oA": 0,
+		"oAP": "/deploy/img/section-8/Group 16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section-8/partners.png": {
+		"ft": 32768,
+		"iS": 17155,
+		"oA": 0,
+		"oAP": "/deploy/img/section-8/partners.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/deploy/index.html": {

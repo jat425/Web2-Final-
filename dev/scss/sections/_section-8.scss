@@ -3,7 +3,7 @@
 ============= */
 #section-8{
     background-color: $dark;
-    border: 1px $blue solid;
+    border: 1px $dark solid;
 
     h1{
         color: $white;
@@ -30,6 +30,21 @@
         color: $white;
     }
 
+    ul{
+        padding-left: 40px;
+        padding-right: 40px;
+
+        @include md{
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+    
+        @include xl{
+            padding-left: 200px;
+            padding-right: 200px;
+        } 
+    }
+
     #section-3-link{
         padding-bottom: 50px;
         a:link,
@@ -47,5 +62,28 @@
         a:active {
             color: $white;
         }
+    }
+
+    // img{
+    //     width: 80%;
+    //     margin-left: 50px;
+
+    //     @include md{
+    //         width: 50%;
+    //     margin-left: 50px;
+    //     }
+
+    //     @include lg{
+    //         width: 40%;
+    //     margin-left: 300px;
+    //     }
+    // }
+    
+    #partners{
+        background-image: url("../img/section-8/partners.png");
+        background-position: center;
+        background-position: contain;
+        background-repeat: no-repeat;
+        height: 180px;
     }
 }

@@ -21,5 +21,79 @@
         }
     }
 
+    #section-5-content{
+        display: grid;
+        grid-template-columns: 170px auto 170px;
+        grid-template-areas: ". section-5-content .";
+
+        ul{
+            gap: 30px;
+            grid-area: section-5-content;
+            padding-bottom: 30px;
+            grid-template-rows: repeat(4, 1fr);
+            grid-template-areas: 
+                "g1"
+                "g2"
+                "g7"
+                "g8";
+    
+            li{
+                h3{
+                    color: $white;
+                    text-align: center;
+                } 
+            }
+    
+            #g1{
+                aside{
+                    background-image: url('../img/section-5/CV.jpg');
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 50%;
+                    height: 150px;
+                    width: 150px;
+                }
+                
+                grid-area: g1;
+            }
+    
+            #g2{
+                aside{
+                    background-image: url('../img/section-5/snipes.jpg');
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 50%;
+                    height: 150px;
+                    width: 150px;
+                }
+                grid-area: g2;
+            }
+    
+            #g7{
+                aside{
+                    background-image: url('../img/section-5/tidal.jpg');
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 50%;
+                    height: 150px;
+                    width: 150px;
+                }
+                grid-area: g7;
+            }
+    
+            #g8{
+                aside{
+                    background-image: url('../img/section-5/lockers.jpg');
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 50%;
+                    height: 150px;
+                    width: 150px;
+                }
+                grid-area: g8;
+            }    
+    
+        }
+    }
     
 }
