@@ -8,33 +8,70 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 936px;
+    @include md{
+        height: 1000px
+    }
     border: 1px $blue solid;
 
 
-    #red{
-        background-image: url('../img/section-6/girl-red.jpg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 300px;
 
-    }
 
-    #blue{
-        background-image: url('../img/section-6/HERO3-Blue.jpg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        margin-top: 80px;
-        height: 300px;
+    #section-6-content{
+        // display: grid;
+        // grid-template-columns: 60px auto 60px;
+        // grid-template-areas: ". section-6-content .";
+
+        ul{
+            display: grid;
+            gap: 20px;
+            grid-area: section-6-content;
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-areas: 
+            "g1"
+            "g2";
+           
+            #g1{
+                background-image: url('../img/section-6/girl-red.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 400px;
+                margin-top: 20px;
+                margin-left: 80px;
+
+                grid-area: g1;
+
+                @include md{
+                    height: 650px;
+                }
+            }
+
+            #g2{
+                background-image: url('../img/section-6/HERO3-BLUE.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 350px;
+                margin-right: 80px;
+
+                grid-area: g2;
+
+                @include md{
+                    height: 455px;
+                }
+            }
+        }
     }
     
+    
+
 
 
     h3{
         color: $white;
         text-align: left;
         font-size: rem-calc(25);
+        font-style: italic;
         margin-top: -20px;
         margin-left: 20px; 
 

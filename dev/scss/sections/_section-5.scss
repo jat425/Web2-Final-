@@ -4,6 +4,7 @@
 #section-5{
     background-color: $blue;
     border: 1px $blue solid;
+    padding-bottom: 50px;
 
     h1{
         color: $white;
@@ -21,21 +22,40 @@
         }
     }
 
+    #video-link{
+        a:link,
+           a:visited{
+            color: $red;
+            text-decoration: none;
+            transition: 0.25s;
+            font-family: 'roboto', sans-serif;
+            font-size: rem-calc(20);
+            font-weight: 700;
+        }
+                
+            
+        a:hover,
+         a:active {
+            color: $white;
+            } 
+    }
+
     #section-5-content{
         display: grid;
         grid-template-columns: 170px auto 170px;
         grid-template-areas: ". section-5-content .";
 
         ul{
-            gap: 30px;
+            grid-gap: 30px;
             grid-area: section-5-content;
             padding-bottom: 30px;
-            grid-template-rows: repeat(4, 1fr);
+            grid-template-rows: repeat(5, 1fr);
             grid-template-areas: 
                 "g1"
                 "g2"
                 "g7"
-                "g8";
+                "g8"
+                "link";
     
             li{
                 h3{
@@ -91,7 +111,25 @@
                     width: 150px;
                 }
                 grid-area: g8;
-            }    
+            }  
+
+            #link{
+                a:link,
+                    a:visited{
+                        color: $red;
+                        text-decoration: none;
+                        transition: 0.25s;
+                        font-family: 'roboto', sans-serif;
+                        font-size: rem-calc(20);
+                        font-weight: 700;
+                    }
+                
+            
+                    a:hover,
+                    a:active {
+                        color: $white;
+                    } 
+            }
     
         }
     }

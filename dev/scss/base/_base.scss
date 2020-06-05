@@ -24,6 +24,13 @@ ul{
     }
 }
 
+.show-for-sm{
+    display: block;
+    @include md{
+        display: none;
+    }
+}
+
 .link {
     text-align: center;
     a:link,

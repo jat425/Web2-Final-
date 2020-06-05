@@ -4,6 +4,7 @@
 #section-8{
     background-color: $dark;
     border: 1px $dark solid;
+    padding-bottom: 50px;
 
     h1{
         color: $white;
@@ -24,10 +25,12 @@
 
     h2{
        color: $red;
+       padding-bottom: 15px;
     }
 
     p{
         color: $white;
+        padding-bottom: 15px;
     }
 
     ul{
@@ -43,12 +46,9 @@
             padding-left: 200px;
             padding-right: 200px;
         } 
-    }
 
-    #section-3-link{
-        padding-bottom: 50px;
         a:link,
-        a:visited{
+           a:visited{
             color: $red;
             text-decoration: none;
             transition: 0.25s;
@@ -56,12 +56,12 @@
             font-size: rem-calc(20);
             font-weight: 700;
         }
-    
-    
+                
+            
         a:hover,
-        a:active {
+         a:active {
             color: $white;
-        }
+            } 
     }
 
     // img{
@@ -79,6 +79,24 @@
     //     }
     // }
     
+    #Partners-link{
+        a:link,
+           a:visited{
+            color: $red;
+            text-decoration: underline;
+            transition: 0.25s;
+            font-family: 'archivo black', sans-serif;
+            font-size: rem-calc(30);
+            font-weight: 400;
+        }
+                
+            
+        a:hover,
+         a:active {
+            color: $white;
+            } 
+    }
+
     #partners{
         background-image: url("../img/section-8/partners.png");
         background-position: center;
