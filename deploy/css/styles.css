@@ -447,6 +447,18 @@ header {
 /* =============
     Footer
 ============= */
+footer {
+  background-image: url("../img/footer/footer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px; }
+  @media (min-width: 992px) {
+    footer {
+      height: 330px; } }
+  @media (min-width: 1200px) {
+    footer {
+      height: 465px; } }
 /* =============
     Section 1
 ============= */
@@ -488,7 +500,8 @@ header {
 ============= */
 #section-2 {
   background-color: #010004;
-  border: 1px #010004 solid; }
+  border: 1px #010004 solid;
+  padding-bottom: 100px; }
   #section-2 h1 {
     color: #fff;
     text-align: center;
@@ -581,19 +594,17 @@ header {
         grid-area: d1; }
       #section-2 #section-2-content ul li #d2 {
         grid-area: d2; }
-  #section-2 #section-2-link {
-    padding-bottom: 50px; }
-    #section-2 #section-2-link a:link,
-    #section-2 #section-2-link a:visited {
-      color: #D9051E;
-      text-decoration: none;
-      transition: 0.25s;
-      font-family: 'roboto', sans-serif;
-      font-size: 1.25rem;
-      font-weight: 700; }
-    #section-2 #section-2-link a:hover,
-    #section-2 #section-2-link a:active {
-      color: #fff; }
+  #section-2 #section-2-link a:link,
+  #section-2 #section-2-link a:visited {
+    color: #D9051E;
+    text-decoration: none;
+    transition: 0.25s;
+    font-family: 'roboto', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700; }
+  #section-2 #section-2-link a:hover,
+  #section-2 #section-2-link a:active {
+    color: #fff; }
 
 /* =============
     Section 3
@@ -718,77 +729,89 @@ header {
       #section-5 h1 {
         font-size: 4.75rem;
         margin-top: -40px; } }
-  #section-5 #video-link a:link,
-  #section-5 #video-link a:visited {
-    color: #D9051E;
-    text-decoration: none;
-    transition: 0.25s;
-    font-family: 'roboto', sans-serif;
-    font-size: 1.25rem;
-    font-weight: 700; }
-  #section-5 #video-link a:hover,
-  #section-5 #video-link a:active {
-    color: #fff; }
   #section-5 #section-5-content {
     display: grid;
-    grid-template-columns: 170px auto 170px;
+    grid-template-columns: 90px auto 90px;
     grid-template-areas: ". section-5-content ."; }
+    @media (min-width: 768px) {
+      #section-5 #section-5-content {
+        grid-template-columns: 60px auto 60px;
+        grid-template-areas: ". section-5-content ."; } }
+    @media (min-width: 992px) {
+      #section-5 #section-5-content {
+        grid-template-columns: 100px auto 100px;
+        grid-template-areas: ". section-5-content ."; } }
+    @media (min-width: 1200px) {
+      #section-5 #section-5-content {
+        grid-template-columns: auto 800px auto;
+        grid-template-areas: ". section-5-content ."; } }
     #section-5 #section-5-content ul {
-      grid-gap: 30px;
+      display: grid;
+      grid-gap: 20px;
       grid-area: section-5-content;
       padding-bottom: 30px;
-      grid-template-rows: repeat(5, 1fr);
-      grid-template-areas: "g1" "g2" "g7" "g8" "link"; }
-      #section-5 #section-5-content ul li h3 {
-        color: #fff;
+      grid-template-rows: repeat(4, 1fr);
+      grid-template-areas: "g1" "g2" "g7" "g8"; }
+      @media (min-width: 768px) {
+        #section-5 #section-5-content ul {
+          display: grid;
+          grid-gap: 20px;
+          grid-template-rows: repeat(2, 1fr);
+          grid-template-areas: "g1 g2 g3" "g6 g7 g8"; } }
+      @media (min-width: 992px) {
+        #section-5 #section-5-content ul {
+          display: grid;
+          grid-gap: 20px;
+          grid-template-rows: repeat(2, 1fr);
+          grid-template-areas: "g1 g2 g3 g4" "g5 g6 g7 g8"; } }
+      #section-5 #section-5-content ul li {
         text-align: center; }
+        #section-5 #section-5-content ul li h3 {
+          color: #fff;
+          text-align: center;
+          font-size: 1rem; }
+        #section-5 #section-5-content ul li img {
+          border-radius: 50%;
+          height: 150px;
+          width: 150px;
+          margin-bottom: 15px;
+          margin-top: 15px; }
       #section-5 #section-5-content ul #g1 {
+        text-align: center;
         grid-area: g1; }
-        #section-5 #section-5-content ul #g1 aside {
-          background-image: url("../img/section-5/CV.jpg");
-          background-position: center;
-          background-size: cover;
+        #section-5 #section-5-content ul #g1 img {
           border-radius: 50%;
           height: 150px;
-          width: 150px; }
+          width: 150px;
+          margin-bottom: 15px;
+          margin-top: 15px; }
       #section-5 #section-5-content ul #g2 {
+        text-align: center;
         grid-area: g2; }
-        #section-5 #section-5-content ul #g2 aside {
-          background-image: url("../img/section-5/snipes.jpg");
-          background-position: center;
-          background-size: cover;
+        #section-5 #section-5-content ul #g2 img {
           border-radius: 50%;
           height: 150px;
-          width: 150px; }
+          width: 150px;
+          margin-bottom: 15px;
+          margin-top: 15px; }
+      #section-5 #section-5-content ul #g3 {
+        text-align: center; }
+        @media (min-width: 768px) {
+          #section-5 #section-5-content ul #g3 {
+            grid-area: g3; } }
+      @media (min-width: 992px) {
+        #section-5 #section-5-content ul #g4 {
+          grid-area: g4; } }
+      @media (min-width: 992px) {
+        #section-5 #section-5-content ul #g5 {
+          grid-area: g5; } }
+      @media (min-width: 768px) {
+        #section-5 #section-5-content ul #g6 {
+          grid-area: g6; } }
       #section-5 #section-5-content ul #g7 {
         grid-area: g7; }
-        #section-5 #section-5-content ul #g7 aside {
-          background-image: url("../img/section-5/tidal.jpg");
-          background-position: center;
-          background-size: cover;
-          border-radius: 50%;
-          height: 150px;
-          width: 150px; }
       #section-5 #section-5-content ul #g8 {
         grid-area: g8; }
-        #section-5 #section-5-content ul #g8 aside {
-          background-image: url("../img/section-5/lockers.jpg");
-          background-position: center;
-          background-size: cover;
-          border-radius: 50%;
-          height: 150px;
-          width: 150px; }
-      #section-5 #section-5-content ul #link a:link,
-      #section-5 #section-5-content ul #link a:visited {
-        color: #D9051E;
-        text-decoration: none;
-        transition: 0.25s;
-        font-family: 'roboto', sans-serif;
-        font-size: 1.25rem;
-        font-weight: 700; }
-      #section-5 #section-5-content ul #link a:hover,
-      #section-5 #section-5-content ul #link a:active {
-        color: #fff; }
 
 /* =============
     Section 6
@@ -805,22 +828,38 @@ header {
       height: 1000px; } }
   #section-6 #section-6-content ul {
     display: grid;
-    gap: 20px;
+    gap: 30px;
     grid-area: section-6-content;
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: "g1" "g2"; }
+    @media (min-width: 992px) {
+      #section-6 #section-6-content ul {
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-areas: "g1" "g2"; } }
     #section-6 #section-6-content ul #g1 {
       background-image: url("../img/section-6/girl-red.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
       height: 400px;
-      margin-top: 20px;
+      margin-top: 10px;
       margin-left: 80px;
       grid-area: g1; }
       @media (min-width: 768px) {
         #section-6 #section-6-content ul #g1 {
-          height: 650px; } }
+          height: 625px;
+          margin-left: 420px;
+          background-position: center; } }
+      @media (min-width: 992px) {
+        #section-6 #section-6-content ul #g1 {
+          height: 625px;
+          margin-left: 600px;
+          background-position: center; } }
+      @media (min-width: 1200px) {
+        #section-6 #section-6-content ul #g1 {
+          height: 700px;
+          margin-left: 800px;
+          background-position: center; } }
     #section-6 #section-6-content ul #g2 {
       background-image: url("../img/section-6/HERO3-BLUE.jpg");
       background-size: cover;
@@ -831,19 +870,35 @@ header {
       grid-area: g2; }
       @media (min-width: 768px) {
         #section-6 #section-6-content ul #g2 {
-          height: 455px; } }
+          background-position: center;
+          height: 560px;
+          margin-right: 380px;
+          margin-top: -310px; } }
+      @media (min-width: 992px) {
+        #section-6 #section-6-content ul #g2 {
+          background-position: center;
+          height: 680px;
+          margin-right: 600px;
+          margin-top: -400px; } }
+      @media (min-width: 1200px) {
+        #section-6 #section-6-content ul #g2 {
+          background-position: center;
+          height: 780px;
+          margin-right: 600px;
+          margin-top: -600px; } }
   #section-6 h3 {
     color: #fff;
     text-align: left;
     font-size: 1.5625rem;
     font-style: italic;
     margin-top: -20px;
-    margin-left: 20px; }
+    margin-left: 20px;
+    margin-right: 20px; }
     @media (min-width: 768px) {
       #section-6 h3 {
         font-size: 2rem;
         margin-left: 30px;
-        margin-right: 70px; } }
+        margin-right: 100px; } }
     @media (min-width: 992px) {
       #section-6 h3 {
         font-size: 2.5rem;
@@ -923,7 +978,8 @@ header {
     color: #fff;
     text-align: center;
     margin-top: -20px;
-    font-size: 2.1875rem; }
+    font-size: 2.1875rem;
+    padding-bottom: 10px; }
     @media (min-width: 768px) {
       #section-8 h1 {
         font-size: 3.75rem;
@@ -931,24 +987,37 @@ header {
     @media (min-width: 992px) {
       #section-8 h1 {
         font-size: 4.75rem;
-        margin-top: -40px; } }
+        margin-top: -40px;
+        padding-bottom: 20px; } }
   #section-8 h2 {
     color: #D9051E;
-    padding-bottom: 15px; }
+    padding-bottom: 5px;
+    font-size: 1.5625rem; }
+    @media (min-width: 992px) {
+      #section-8 h2 {
+        font-size: 1.875rem; } }
   #section-8 p {
     color: #fff;
-    padding-bottom: 15px; }
+    padding-bottom: 25px;
+    font-size: 1rem; }
+    @media (min-width: 992px) {
+      #section-8 p {
+        font-size: 1.5625rem;
+        padding-bottom: 30px; } }
   #section-8 ul {
     padding-left: 40px;
-    padding-right: 40px; }
+    padding-right: 40px;
+    padding-bottom: 10px; }
     @media (min-width: 768px) {
       #section-8 ul {
         padding-left: 100px;
-        padding-right: 100px; } }
+        padding-right: 100px;
+        padding-bottom: 40px; } }
     @media (min-width: 1200px) {
       #section-8 ul {
         padding-left: 200px;
-        padding-right: 200px; } }
+        padding-right: 200px;
+        padding-bottom: 60px; } }
     #section-8 ul a:link,
     #section-8 ul a:visited {
       color: #D9051E;

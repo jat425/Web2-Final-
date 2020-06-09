@@ -4,6 +4,7 @@
 #section-2{
     background-color: $dark;
     border: 1px $dark solid;
+    padding-bottom: 100px;
 
     h1{
         color: $white;
@@ -137,7 +138,7 @@
     } 
     
     #section-2-link{
-        padding-bottom: 50px;
+        // padding-bottom: 50px;
 
         a:link,
         a:visited {
@@ -154,6 +155,7 @@
             color: $white;
         }
     }
+
 
     // #cardi{
     //     background-image: url('../img/section-2/group 2.png');

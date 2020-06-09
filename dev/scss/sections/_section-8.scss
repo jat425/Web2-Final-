@@ -11,6 +11,7 @@
         text-align: center;
         margin-top: -20px;
         font-size: rem-calc(35);
+        padding-bottom: 10px;
 
         @include md{
             font-size: rem-calc(60);
@@ -20,31 +21,48 @@
         @include lg{
             font-size: rem-calc(76);
             margin-top: -40px;
+            padding-bottom: 20px;
         }
     }
 
     h2{
        color: $red;
-       padding-bottom: 15px;
+       padding-bottom: 5px;
+       font-size: rem-calc(25);
+
+
+       @include lg{
+        font-size: rem-calc(30);
+        }
     }
 
     p{
         color: $white;
-        padding-bottom: 15px;
+        padding-bottom: 25px;
+        font-size: rem-calc(16);
+
+
+        @include lg{
+         font-size: rem-calc(25);
+         padding-bottom: 30px;
+         }
     }
 
     ul{
         padding-left: 40px;
         padding-right: 40px;
+        padding-bottom: 10px;
 
         @include md{
             padding-left: 100px;
             padding-right: 100px;
+            padding-bottom: 40px;
         }
     
         @include xl{
             padding-left: 200px;
             padding-right: 200px;
+            padding-bottom: 60px;
         } 
 
         a:link,

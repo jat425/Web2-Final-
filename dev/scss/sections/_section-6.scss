@@ -23,12 +23,18 @@
 
         ul{
             display: grid;
-            gap: 20px;
+            gap: 30px;
             grid-area: section-6-content;
             grid-template-rows: repeat(2, 1fr);
             grid-template-areas: 
             "g1"
             "g2";
+
+            @include lg{
+                grid-template-rows: repeat(1, 1fr);
+                grid-template-areas: 
+                "g1" "g2";
+            }
            
             #g1{
                 background-image: url('../img/section-6/girl-red.jpg');
@@ -36,13 +42,27 @@
                 background-repeat: no-repeat;
                 background-position: center;
                 height: 400px;
-                margin-top: 20px;
+                margin-top: 10px;
                 margin-left: 80px;
 
                 grid-area: g1;
 
                 @include md{
-                    height: 650px;
+                    height: 625px;
+                    margin-left: 420px;
+                    background-position: center;
+                }
+
+                @include lg{
+                    height: 625px;
+                    margin-left: 600px;
+                    background-position: center;
+                }
+
+                @include xl{
+                    height: 700px;
+                    margin-left: 800px;
+                    background-position: center;
                 }
             }
 
@@ -57,7 +77,24 @@
                 grid-area: g2;
 
                 @include md{
-                    height: 455px;
+                    background-position: center;
+                    height: 560px;
+                    margin-right: 380px;
+                    margin-top: -310px;
+                }
+
+                @include lg{
+                    background-position: center;
+                    height: 680px;
+                    margin-right: 600px;
+                    margin-top: -400px;
+                }
+
+                @include xl{
+                    background-position: center;
+                    height: 780px;
+                    margin-right: 600px;
+                    margin-top: -600px;
                 }
             }
         }
@@ -74,11 +111,12 @@
         font-style: italic;
         margin-top: -20px;
         margin-left: 20px; 
+        margin-right: 20px;
 
             @include md{
             font-size: rem-calc(32);
             margin-left: 30px; 
-            margin-right: 70px;
+            margin-right: 100px;
             }
 
             @include lg{
