@@ -21,8 +21,10 @@
             margin-top: -40px;
         }
     }
-
+    
     #section-2-content{
+       
+
         display: grid;
         grid-template-columns: 60px auto 60px;
         grid-template-areas: ". section-2-content .";
@@ -72,8 +74,6 @@
                     padding-bottom: 40px;
                 }
     
-
-
 
             li{
                 h3{
@@ -155,24 +155,4 @@
             color: $white;
         }
     }
-
-
-    // #cardi{
-    //     background-image: url('../img/section-2/group 2.png');
-    //     background-position: left;
-    //     background-size: contain;
-    //     background-repeat: no-repeat;
-    //     height: 300px;
-    //     margin-top: -60px;
-    //     margin-left: -100px;
-    // }
-    // #travis{
-    //     background-image: url('../img/section-2/TRAVIS1.png');
-    //     background-position: right;
-    //     background-size: contain;
-    //     background-repeat: no-repeat;
-    //     height: 300px;
-    //     margin-top: -60px;
-    //     margin-right: -100px;
-    // }
 } 
