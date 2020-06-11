@@ -3,15 +3,108 @@
 ============= */
 
 footer{
+    margin-top: -20px;
     background-image: url('../img/footer/footer.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 250px;
+    height: 270px;
+    
     @include lg{
-        height: 330px
+        height: 350px
     }
-    @include xl{
-        height: 465px
+ 
+
+    ul {
+        display: flex;
+        justify-content: center;
+
+        li {
+            padding-top: 30px;
+            padding-left: 20px;
+
+            @include lg{
+                padding-top: 60px;
+            }
+            i {
+                color: $red;
+                font-size: 27px;
+                transition: 0.25s;
+
+                @include lg{
+                    font-size: 40px;  
+                }
+            }
+            i:hover{
+                color: $white;
+            }
+        }
+    }
+
+    #footer-text-1{
+        padding-top: 10px;
+        color: $white;
+        text-align: center;
+        h6{
+            font-family: 'archivo black', sans-serif;
+            font-size: rem-calc(25);
+            padding-bottom: 5px;
+        }
+        p{
+            font-size: rem-calc(16);
+
+            @include lg{
+                font-size: rem-calc(18); 
+            }
+        }
+        span{
+            text-decoration: underline;
+            font-weight: bolder;
+        }
+        
+    }
+    #footer-text-2{
+        text-align: center;
+        padding-top: 30px;
+
+        @include lg{
+            text-align: left;
+            padding-left: 30px;
+            padding-top: 80px;
+        }
+        a:link,
+        a:visited{
+         color: $white;
+         text-decoration: none;
+         transition: 0.25s;
+         font-family: 'roboto', sans-serif;
+         font-size: rem-calc(18);
+         font-weight: 700;
+         padding-left: 20px;
+
+         @include lg{
+             font-size: rem-calc(25);
+         }
+     }
+             
+         
+     a:hover,
+      a:active {
+         color: $red;
+         } 
+    }
+
+    h3{
+        color: $white;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 16px;
+
+        @include lg{
+            text-align: right;
+            margin-top: -40px;
+            padding-right: 30px;
+            font-size: 20px;
+        }
     }
 }

@@ -448,17 +448,84 @@ header {
     Footer
 ============= */
 footer {
+  margin-top: -20px;
   background-image: url("../img/footer/footer.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 250px; }
+  height: 270px; }
   @media (min-width: 992px) {
     footer {
-      height: 330px; } }
-  @media (min-width: 1200px) {
-    footer {
-      height: 465px; } }
+      height: 350px; } }
+  footer ul {
+    display: flex;
+    justify-content: center; }
+    footer ul li {
+      padding-top: 30px;
+      padding-left: 20px; }
+      @media (min-width: 992px) {
+        footer ul li {
+          padding-top: 60px; } }
+      footer ul li i {
+        color: #D9051E;
+        font-size: 27px;
+        transition: 0.25s; }
+        @media (min-width: 992px) {
+          footer ul li i {
+            font-size: 40px; } }
+      footer ul li i:hover {
+        color: #fff; }
+  footer #footer-text-1 {
+    padding-top: 10px;
+    color: #fff;
+    text-align: center; }
+    footer #footer-text-1 h6 {
+      font-family: 'archivo black', sans-serif;
+      font-size: 1.5625rem;
+      padding-bottom: 5px; }
+    footer #footer-text-1 p {
+      font-size: 1rem; }
+      @media (min-width: 992px) {
+        footer #footer-text-1 p {
+          font-size: 1.125rem; } }
+    footer #footer-text-1 span {
+      text-decoration: underline;
+      font-weight: bolder; }
+  footer #footer-text-2 {
+    text-align: center;
+    padding-top: 30px; }
+    @media (min-width: 992px) {
+      footer #footer-text-2 {
+        text-align: left;
+        padding-left: 30px;
+        padding-top: 80px; } }
+    footer #footer-text-2 a:link,
+    footer #footer-text-2 a:visited {
+      color: #fff;
+      text-decoration: none;
+      transition: 0.25s;
+      font-family: 'roboto', sans-serif;
+      font-size: 1.125rem;
+      font-weight: 700;
+      padding-left: 20px; }
+      @media (min-width: 992px) {
+        footer #footer-text-2 a:link,
+        footer #footer-text-2 a:visited {
+          font-size: 1.5625rem; } }
+    footer #footer-text-2 a:hover,
+    footer #footer-text-2 a:active {
+      color: #D9051E; }
+  footer h3 {
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 16px; }
+    @media (min-width: 992px) {
+      footer h3 {
+        text-align: right;
+        margin-top: -40px;
+        padding-right: 30px;
+        font-size: 20px; } }
 /* =============
     Section 1
 ============= */
@@ -776,7 +843,10 @@ footer {
           height: 150px;
           width: 150px;
           margin-bottom: 15px;
-          margin-top: 15px; }
+          margin-top: 15px;
+          transition: 0.25s; }
+        #section-5 #section-5-content ul li img:hover {
+          opacity: 0.5; }
       #section-5 #section-5-content ul #g1 {
         text-align: center;
         grid-area: g1; }
