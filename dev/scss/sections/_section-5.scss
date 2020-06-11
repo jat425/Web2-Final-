@@ -4,7 +4,7 @@
 #section-5{
     background-color: $blue;
     border: 1px $blue solid;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 
 
     h1{
@@ -47,6 +47,7 @@
             display: grid;
             grid-gap: 20px;
             grid-area: section-5-content;
+            padding-top: 20px;
             padding-bottom: 30px;
             grid-template-rows: repeat(4, 1fr);
             grid-template-areas: 
@@ -58,7 +59,7 @@
                 @include md{
                     display: grid;
                     grid-gap: 20px;
-                    padding-bottom: 50px;
+                    padding-bottom: 20px;
                     grid-template-rows: repeat(2, 1fr);
                     grid-template-areas: 
                         "g1 g2 g3"
@@ -68,6 +69,7 @@
                 @include lg{
                     display: grid;
                     grid-gap: 20px;
+                    padding-bottom: 20px;
                     grid-template-rows: repeat(2, 1fr);
                     grid-template-areas: 
                         "g1 g2 g3 g4"
@@ -154,27 +156,27 @@
             #g8{
                 grid-area: g8;
             }  
-
-            // #link{
-            //     margin-top: 15px;
-            //     a:link,
-            //         a:visited{
-            //             color: $red;
-            //             text-decoration: none;
-            //             transition: 0.25s;
-            //             font-family: 'roboto', sans-serif;
-            //             font-size: rem-calc(20);
-            //             font-weight: 700;
-            //         }
-                
-            
-            //         a:hover,
-            //         a:active {
-            //             color: $white;
-            //         } 
-            // }
-    
         }
+    }
+
+    #link{
+        margin-top: -20px;
+        margin-bottom: 50px;
+        a:link,
+            a:visited{
+                color: $red;
+                text-decoration: none;
+                transition: 0.25s;
+                font-family: 'roboto', sans-serif;
+                font-size: rem-calc(20);
+                font-weight: 700;
+            }
+        
+    
+            a:hover,
+            a:active {
+                color: $white;
+            } 
     }
 
     h5{
@@ -199,7 +201,7 @@
             color: $red;
             text-decoration: none;
             transition: 0.25s;
-            font-family: 'roboto', sans-serif;
+            font-family: 'Archivo Black', sans-serif;
             font-size: rem-calc(20);
             font-weight: 700;
         }
@@ -209,6 +211,11 @@
          a:active {
             color: $white;
             } 
+    }
+
+    #video{
+        padding-left: 100px;
+        padding-right: 100px;
     }
     
 }

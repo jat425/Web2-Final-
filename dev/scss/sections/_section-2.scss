@@ -98,15 +98,17 @@
 
                 p{
                     color: $white;
-                    text-align: justify;
+                    text-align: center;
                     font-size: rem-calc(16);
 
                     @include md{
                         font-size: rem-calc(25);
+                        text-align: left;
                     }
 
                     @include lg{
                         font-size: rem-calc(30);
+                        text-align: left;
                     }
                 }
 
@@ -138,8 +140,7 @@
     } 
     
     #section-2-link{
-        // padding-bottom: 50px;
-
+        margin-top: -20px;
         a:link,
         a:visited {
             color: $red;
