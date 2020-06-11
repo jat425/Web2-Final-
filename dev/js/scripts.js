@@ -21,8 +21,4 @@ $burger.on( "click", mouseClick);
 // close the mobile menu when menu link is clicked
 $navA.on( "click", mouseClick);
 
-AOS.init({
-    duration: 1200,
-  })
-
 

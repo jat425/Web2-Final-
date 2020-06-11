@@ -1,7 +1,7 @@
 /* =============
     Header
 ============= */
-header{
+header {
     background-color: $dark;
     left: 0;
     position: fixed;
@@ -10,9 +10,9 @@ header{
 
     >div {
         display: grid;
-        grid-template-areas: 
-        "logo burger"
-        "nav nav";
+        grid-template-areas:
+            "logo burger"
+            "nav nav";
         grid-template-columns: 80% auto;
 
         @include lg {

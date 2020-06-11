@@ -351,7 +351,14 @@ body {
   font-family: 'Archivo Black', sans-serif;
   font-family: 'Roboto', sans-serif; }
 
-h1, h2, h3, h4, h5, h6, p, figure {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure {
   margin: 0;
   padding: 0; }
 
@@ -975,12 +982,12 @@ footer {
     gap: 30px;
     grid-area: section-6-content;
     grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "g1" "g2"; }
+    grid-template-areas: "a1" "a2"; }
     @media (min-width: 992px) {
       #section-6 #section-6-content ul {
         grid-template-rows: repeat(1, 1fr);
-        grid-template-areas: "g1" "g2"; } }
-    #section-6 #section-6-content ul #g1 {
+        grid-template-areas: "a1" "a2"; } }
+    #section-6 #section-6-content ul #a1 {
       background-image: url("../img/section-6/girl-red.jpg");
       background-size: cover;
       background-repeat: no-repeat;
@@ -988,44 +995,44 @@ footer {
       height: 400px;
       margin-top: 10px;
       margin-left: 80px;
-      grid-area: g1; }
+      grid-area: a1; }
       @media (min-width: 768px) {
-        #section-6 #section-6-content ul #g1 {
+        #section-6 #section-6-content ul #a1 {
           height: 625px;
           margin-left: 420px;
           background-position: center; } }
       @media (min-width: 992px) {
-        #section-6 #section-6-content ul #g1 {
+        #section-6 #section-6-content ul #a1 {
           height: 625px;
           margin-left: 600px;
           background-position: center; } }
       @media (min-width: 1200px) {
-        #section-6 #section-6-content ul #g1 {
+        #section-6 #section-6-content ul #a1 {
           height: 700px;
           margin-left: 800px;
           background-position: center; } }
-    #section-6 #section-6-content ul #g2 {
+    #section-6 #section-6-content ul #a2 {
       background-image: url("../img/section-6/HERO3-BLUE.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
       height: 350px;
       margin-right: 80px;
-      grid-area: g2; }
+      grid-area: a2; }
       @media (min-width: 768px) {
-        #section-6 #section-6-content ul #g2 {
+        #section-6 #section-6-content ul #a2 {
           background-position: center;
           height: 560px;
           margin-right: 380px;
           margin-top: -310px; } }
       @media (min-width: 992px) {
-        #section-6 #section-6-content ul #g2 {
+        #section-6 #section-6-content ul #a2 {
           background-position: center;
           height: 680px;
           margin-right: 600px;
           margin-top: -400px; } }
       @media (min-width: 1200px) {
-        #section-6 #section-6-content ul #g2 {
+        #section-6 #section-6-content ul #a2 {
           background-position: center;
           height: 780px;
           margin-right: 600px;

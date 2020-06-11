@@ -23,16 +23,16 @@
             grid-area: section-6-content;
             grid-template-rows: repeat(2, 1fr);
             grid-template-areas: 
-            "g1"
-            "g2";
+            "a1"
+            "a2";
 
             @include lg{
                 grid-template-rows: repeat(1, 1fr);
                 grid-template-areas: 
-                "g1" "g2";
+                "a1" "a2";
             }
            
-            #g1{
+            #a1{
                 background-image: url('../img/section-6/girl-red.jpg');
                 background-size: cover;
                 background-repeat: no-repeat;
@@ -41,7 +41,7 @@
                 margin-top: 10px;
                 margin-left: 80px;
 
-                grid-area: g1;
+                grid-area: a1;
 
                 @include md{
                     height: 625px;
@@ -62,7 +62,7 @@
                 }
             }
 
-            #g2{
+            #a2{
                 background-image: url('../img/section-6/HERO3-BLUE.jpg');
                 background-size: cover;
                 background-repeat: no-repeat;
@@ -70,7 +70,7 @@
                 height: 350px;
                 margin-right: 80px;
 
-                grid-area: g2;
+                grid-area: a2;
 
                 @include md{
                     background-position: center;
